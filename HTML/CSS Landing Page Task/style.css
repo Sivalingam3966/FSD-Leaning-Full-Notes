@@ -1,91 +1,300 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins", sans-serif;
-}
-
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
     color: #222222;
 }
 
-.navbar{
+header .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 200px;
+    padding: 30px 20%;
 }
 
-.navbar .logo{
-    font-size: 24px;
+header h1 {
     font-family: "volkhov", sans-serif;
+    font-size: 30px;
 }
 
-.navbar .logo-icon{
-    position: fixed;
-    top: 3%;
-    left: 26%;
-    transform: translate(-50%, -50%);
-}
-
-.navbar .nav-link ul{
-    display: flex;
-    font-size: 16px;
+li, a, btn {
+    font-size: 18px;
+    color: #222222;
+    text-decoration: none;
     list-style: none;
 }
 
-.navbar .nav-link ul li{
-    margin: 30px 15px;
+header {
+    background-color: #FEFCFB;
 }
 
-.navbar .nav-link ul li a{
-    text-decoration: none;
-    color: #222222;
+section {
+    background-color: #FEFCFB;
 }
 
-.button{
-    padding: 0px 30px;
-    border-radius: 5px;
-    font-weight: bold;
-    background-color: #FA7436;
+.logo {
     cursor: pointer;
 }
 
-/* Do Button Udjust */
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 0;
+}
 
-.header{
+.navbar .login {
     position: absolute;
-    padding: 50px 350px;
-}
-
-.header .header-content h1{
-    font-size: 64px;
-    font-family: "volkhov", sans-serif;
-}
-
-.header .header-content h1 span{
-    font-family: "volkhov", sans-serif;
+    padding: 1250px;
     color: #FA7436;
+    font-size: 18px;
 }
 
-.header .header-content p{
-    font-size: 20px;
+ul, li, a {
+    display: inline-block;
+}
+
+button {
+    background-color: #FA7436;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* header-text */
+
+.header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    z-index: 100;
+}
+
+.header-text h1 {
+    font-family: "Volkhov", sans-serif;
+    font-size: 85px;
+}
+
+.header-text h1 span{
+    color: #FA7436;
+    font-family: "Volkhov", sans-serif;
+    font-size: 85px;
+}
+
+.header-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
     color: #666666;
 }
 
-.header .section-button{
+.header a button {
     position: absolute;
-    padding: 80px 0px;
+    margin-top: 50px;
+    border: 1px solid #FA7436;
+    background-color: white;
+    color: #FA7436;
+    padding: 14px 24px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-.header .section-button a{
-    padding: 20px 30px;
-    border-radius: 5px;
-    outline: 2px solid;
-    color: #FA7436;
-    text-decoration: none;
+section {
     position: relative;
+    padding: 0 20%;
+}
+
+/* best-tour */
+.best-tour{
+    background-color: white; /* Green */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(174, 174, 174, 0.2), 0 6px 20px 0 rgba(171, 171, 171, 0.19);
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.best-tour img {
+    margin-right: 10px;
+}
+
+.best-tour h3 {
+    display: inline-block;
+    font-weight: 500;
+}
+
+.best-tour {
+    position: absolute;
+    left: 52%;
+    top: 30%;
+}
+
+.explore {
+    position: relative;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(174, 174, 174, 0.2), 0 6px 20px 0 rgba(171, 171, 171, 0.19);
+    color: white;
+    padding: 10px 40px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.explore img {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+
+.explore h3 {
+    position: relative;
+    font-weight: 500;
+    left: 20px;
+}
+
+.explore p {
+    position: relative;
+    left: 20px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.explore {
+    position: absolute;
+    left: 71%;
+    top: 55%;
+    z-index: 10;
+    width: 230px;
+    height: 100px;
+}
+
+/* .Box-3 */
+.box-3 {
+    position: relative;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(174, 174, 174, 0.2), 0 6px 20px 0 rgba(171, 171, 171, 0.19);
+    color: white;
+    padding: 10px 40px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+}
+
+.box-3 img {
+    position: absolute;
+    top: 25%;
+    left: 25px;
+}
+
+.box-3 h3 {
+    position: relative;
+    font-weight: 500;
+    left: 20px;
+    font-size: 20px;
+}
+
+.box-3 p {
+    position: relative;
+    left: 20px;
+}
+
+.box-3 {
+    position: absolute;
+    left: 55%;
+    top: 85%;
+    z-index: 10;
+}
+.box-3 {
+    padding: 15px 50px;
+}
+
+.tourist-man img {
+    position: absolute;
+    top: 55px;
+    right: 580px;
+    z-index: 10;
+}
+
+.ellipse {
+    position: relative;
+    top: 200px;
+    right: end;
+    z-index: -10;
+}
+/* .Container */
+.explore-now {
+    position: relative;
+    top: 50%;
+    left: 10%;
+}
+
+.dropdown-text {
+    display: flex;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(174, 174, 174, 0.2), 0 6px 20px 0 rgba(171, 171, 171, 0.19);
+    border-radius: 10px;
+    width: 1000px;
+    gap: 52px;
+    margin: 0;
+}
+
+.dropdown-text {
+    position: absolute;
+    padding: 0 50px;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    top: 200px; 
+}
+
+.dropdown-text h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dropdown-text p {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.fa-chevron-down {
+    color: #FA7436;
+}
+
+.to-do {
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background: #F7F8FC;
+    height: 724px;
+    top: 500px;
+}
+
+.to-do .content {
+    text-align: center;
+    padding: 100px;
 }

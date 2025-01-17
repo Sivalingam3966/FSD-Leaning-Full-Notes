@@ -1,1 +1,108 @@
-Guvi Task
+<section class="header">
+            <div class="header-content">
+                <h1>Get staeted your <br>exciting <span>journey</span> <br> with us.</h1>
+                <p>A Team of experienced tourism professionals will <br> provide you with the best advice and tips for your <br>desire place. </p>
+            </div>
+            <div class="section-button">
+                <a href="discover-now">Discover Now</a>
+            </div>
+            <div class="achivement-area">
+                <div class="header-vector">
+                    <img src="assets/Vector-1.png" alt="">
+                </div>
+                <div class="tourist-man">
+                    <img src="assets/tourist-with-thumb-up.png" alt="">
+                </div>
+            </div>
+            <div class="achivement-card">
+                <div class="best-tour">
+                    <img src="assets/trophy-1.png" alt="">
+                    <h3>Best Tour <br> Awards</h3>
+                </div>
+            </div>
+            <div class="achivement-card">
+                <div class="explore">
+                    <img src="assets/google-maps 1.png" alt="">
+                    <h3>Explore</h3>
+                    <p>Every cornar of <br> the world with us</p>
+                </div>
+            </div>
+            <div class="achivement-card">
+                <div class="explore">
+                    <img src="assets/star 1.png" alt="">
+                    <h3>27K</h3>
+                    <p>Customer Reviewd</p>
+                </div>
+            </div>
+            <section class="explore-now">
+                <div class="dropdown-text">
+                    <div class="location-text">
+                        <h3>Location <i><i class="fa-solid fa-chevron-down"></i></i></h3>
+                        <p>Where are you going</p>
+                    </div>
+                    <div class="date-text">
+                        <h3>Date <i><i class="fa-solid fa-chevron-down"></i></i></h3>
+                        <p>When you will go</p>
+                    </div>
+                    <div class="guest-text">
+                        <h3>Guest <i><i class="fa-solid fa-chevron-down"></i></i></h3>
+                        <p>Number of guest</p>
+                    </div>
+                </div>
+                <div class="explore-button">
+                    <a href="">Explore Now</a>
+                </div>
+            </section>
+</section>
+
+        CSS
+
+        .nav_header {
+    position: relative;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100%;
+}
+
+.nav_logo {
+    font-family: Volkhov, sans-serif;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    font-family: Poppins;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.btn {
+    background-color: #FA7436;
+    border-radius: 3px;
+}
+
+
+colors:
+#222222
+#666666
+#FA7436
+#FEFCFB - header background
+#F7F8FC - body background
+
+
+/* ellipse */
+.ellipse img {
+    position: absolute;
+    left: 1550px;
+    top: 50%;
+}
